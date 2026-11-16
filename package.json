@@ -1,0 +1,15 @@
+{
+  "name": "download-speedtest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sequential download speed check: 10 requests, average time, total bytes, Mbit/s",
+  "bin": {
+    "speedtest": "./speedtest.js"
+  },
+  "scripts": {
+    "start": "node speedtest.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
